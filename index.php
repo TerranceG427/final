@@ -17,11 +17,14 @@
 </p>
 <p>Celcius: <span id="outputCelcius"></span></p>
 
+
 <script>
+/*Here below, a function was made to formulate whatever input is entered, a - (negative) output will exploint, in Celsius. -273.15 is a placeholder and a start.*/
 function temperatureConverter(valNum) {
   valNum = parseFloat(valNum);
   document.getElementById("outputCelcius").innerHTML=valNum-273.15;
 }
+
 </script>
 
 </body>
